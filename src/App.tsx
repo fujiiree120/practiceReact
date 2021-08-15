@@ -76,6 +76,62 @@ const App: React.FC = (props: any) => {
           <TaskItem key={task.id} id={task.id} title={task.title} />
         ))}
       </List>
+     /**      <FormControl>
+        <TextField className={classes.field} label="New Task" value={input} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setInput(e.target.value)} />
+      </FormControl>
+      <button className={styles.app__icon} disabled={!input} onClick={newTask}>
+        <AddToPhotosIcon />
+      </button>
+
+      <List className={classes.list}>
+        {tasks.map((task) => (
+          <TaskItem key={task.id} id={task.id} title={task.title} />
+        ))}
+      </List>      <FormControl>
+        <TextField className={classes.field} label="New Task" value={input} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setInput(e.target.value)} />
+      </FormControl>
+      <button className={styles.app__icon} disabled={!input} onClick={newTask}>
+        <AddToPhotosIcon />
+      </button>
+
+      <List className={classes.list}>
+        {tasks.map((task) => (
+          <TaskItem key={task.id} id={task.id} title={task.title} />
+        ))}
+      </List>      <FormControl>
+        <TextField className={classes.field} label="New Task" value={input} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setInput(e.target.value)} />
+      </FormControl>
+      <button className={styles.app__icon} disabled={!input} onClick={newTask}>
+        <AddToPhotosIcon />
+      </button>
+
+      <List className={classes.list}>      <FormControl>
+        <TextField className={classes.field} label="New Task" value={input} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setInput(e.target.value)} />
+      </FormControl>
+      <button className={styles.app__icon} disabled={!input} onClick={newTask}>
+        <AddToPhotosIcon />
+      </button>
+
+      <List className={classes.list}>
+        {tasks.map((task) => (
+          <TaskItem key={task.id} id={task.id} title={task.title} />
+        ))}
+      </List>      <FormControl>
+        <TextField className={classes.field} label="New Task" value={input} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setInput(e.target.value)} />
+      </FormControl>
+      <button className={styles.app__icon} disabled={!input} onClick={newTask}>
+        <AddToPhotosIcon />
+      </button>
+
+      <List className={classes.list}>
+        {tasks.map((task) => (
+          <TaskItem key={task.id} id={task.id} title={task.title} />
+        ))}
+      </List>
+        {tasks.map((task) => (
+          <TaskItem key={task.id} id={task.id} title={task.title} />
+        ))}
+      </List> */
     </div>
   );
 }
